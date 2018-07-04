@@ -5,9 +5,23 @@ A command line dictionary written in Perl using Merriam-Webster APIs.
 
 - Merriam-Webster Collegiate
 
+For each entry, it contains:
+
+- Pronunciation: IPA(International Phonetic Alphabet)
+
+- Part of Speech
+
+- Grammar
+
+- Definition
+
+- Common Usage
+
+- Examples
+
 All searched words are saved in the set and saved to `searched.txt`.
 
-It also save searched words and definitions into the file `quizlet.txt` so that they can be imported into [Quizlet](https://quizlet.com/) which makes flash cards. The format is:
+It also save searched words and definitions into the file `quizlet.txt` so that they can be imported into [Quizlet](https://quizlet.com/) which makes flashcards. The format is:
 
 - between term and definition: `$`
 
