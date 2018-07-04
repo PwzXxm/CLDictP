@@ -37,3 +37,7 @@ $ perl dict.pl
 ## Demo
 
 ![demo_gif](./demo.gif)
+
+## License
+
+This project is under [GNU General Public License v3.0](./LICENSE)
