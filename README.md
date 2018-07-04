@@ -23,4 +23,4 @@ perl dict.pl
 
 ## Demo
 
-!(demo_gif)[https://media.giphy.com/media/14ug46DiMGxyDpA7z5/giphy.gif]
+![demo_gif](https://media.giphy.com/media/14ug46DiMGxyDpA7z5/giphy.gif)
