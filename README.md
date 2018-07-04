@@ -17,7 +17,7 @@ It also save searched words and definitions into the file `quizlet.txt` so that 
 
 1. Get API Keys: [DictionaryAPI](https://www.dictionaryapi.com/).
 
-2. Add API Keys to `api_tempalte.json` and change the file name to `api.json`.
+2. Add API Keys to `api_template.json` and change the file name to `api.json`.
 
 3. Install dependencies with
 
