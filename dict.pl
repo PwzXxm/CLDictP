@@ -487,7 +487,7 @@ sub parse_oxford_json {
 
     print_log("Parse Json: \n");
     print_log($text);
-    
+
     utf8::encode($text);
     my $decoded_text = decode_json $text;
 
