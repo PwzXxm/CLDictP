@@ -1,6 +1,16 @@
 # CLDictP
 A command line dictionary written in Perl using Merriam-Webster APIs.
 
+- Merriam-Webster Learner
+- Merriam-Webster Collegiate
+
+All searched words are saved in the set and saved to `searched.txt`.
+
+It also save searched words and definitions into the file `quizlet.txt` so that they can be imported into [Quizlet](https://quizlet.com/) which makes flash cards. The format is:
+
+    - between term and definition: `$`
+    - between cards: `---`
+
 ## Usage
 
 1. Get API Keys: [DictionaryAPI](https://www.dictionaryapi.com/).
@@ -10,7 +20,7 @@ A command line dictionary written in Perl using Merriam-Webster APIs.
 1. Install dependencies with 
 
 ``` bash
-cpan Term::ANSIColor Term::ReadKey LWP::UserAgent LWP::Protocol::https Readonly XML::LibXML JSON::XS Data::Dumper Set::Light
+$ cpan Term::ANSIColor Term::ReadKey LWP::UserAgent LWP::Protocol::https Readonly XML::LibXML JSON::XS Data::Dumper Set::Light
 ```
 
 1. Run the script with
@@ -18,9 +28,9 @@ cpan Term::ANSIColor Term::ReadKey LWP::UserAgent LWP::Protocol::https Readonly 
 1. To exit, use Ctrl+D
 
 ``` bash
-perl dict.pl
+$ perl dict.pl
 ```
 
 ## Demo
 
-![demo_gif](https://media.giphy.com/media/14ug46DiMGxyDpA7z5/giphy.gif)
+![demo_gif](./demo.gif)
