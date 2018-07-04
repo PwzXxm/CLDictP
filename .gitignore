@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+!dict.pl
+!test_color.pl
+!api_template.json
+!README.md
+!LICENSE
